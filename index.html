@@ -6,14 +6,46 @@
     <title>Martin kasike portifolio</title>
     <!-- style css links -->
      <link rel="stylesheet" href="./style/style.css">
+     <!-- scripts  -->
+      <script src="./scripts/main.js" defer></script>
+     <!-- mdn links -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
 </head>
 <body>
     <header>
-        <nav class="navbar">
+        <nav class="nav_bar">
             <div class="logo">
                 <h2>LOGO</h2>
             </div>
+            <button class="navbar-toggler" id="toggleButton" aria-label="Name">
+                <i class="fa fa-bars"></i>
+            </button>
+            <ul class="nav_links" id="navMenu">
+                <li><a href="">Home</a></li>
+                <li><a href="">About Me</a></li>
+                <li><a href="">Blog</a></li>
+                <li><a href="">news</a></li>
+                <li><a href="">programming language</a></li>
+                <li><a href="#"> <i class="fa fa-circle-half-stroke"></i></a></li>
+            </ul>
         </nav>
     </header>
+    <main>
+        <section>
+            <div class="container">
+                <div class="header_left">
+                    <h2>It's Me Martin </h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus cumque corrupti quia, nulla reprehenderit qui esse similique veniam magnam aperiam sit adipisci, eum maiores perspiciatis consequuntur nemo eaque est doloribus dolorem deserunt a. In fugiat necessitatibus totam voluptas facere perspiciatis minus placeat commodi hic! Nisi, ex obcaecati. Repudiandae, corporis commodi?</p>
+                    <button class="btn">Read More</button>
+    
+                </div>
+                <div class="header_right">
+                    <img src="./images/martin.jpg" alt=" martin picture" loading="lazy">
+    
+                </div>
+            </div>
+        </section>
+   
+    </main>
 </body>
 </html>
