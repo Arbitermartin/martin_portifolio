@@ -27,6 +27,7 @@
 }
 body{  
   font-family: "Kanit", serif;
+  font-size: 18px;
 }
 .nav_bar {
     display: flex;
@@ -88,7 +89,7 @@ body{
   }
   .header_left{
     margin: 20px 40px;
-    line-height: 1.3rem;
+    line-height: 1.7rem;
     color: var(--color-white);
   }
   .header_left h2{
