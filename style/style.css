@@ -139,6 +139,13 @@ body{
     border-left: 4px solid var(--color-b);
     padding: 10px;
   }
+  .project ul li{
+    list-style: none;
+    padding: 0.3rem;
+  }
+  .project ul li a:hover{
+    letter-spacing: 0.2rem;
+  }
   .content p{
     color: black;
     margin-bottom: 23px;
