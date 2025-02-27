@@ -18,6 +18,7 @@
     --color-white:#f2f2fe;
     --color-light: #055864;
     --color-b: #f2f1ec;
+    --color-black: #000;
 }
 *{
     padding: 0;
@@ -34,7 +35,7 @@ body{
     top: 0;
     left: 0;
     width: 100%;              /* Full width */
-    background-color: var(--color-bg); /* Initial dark blue */
+    background-color: var(--color-black); /* Initial dark blue */
     color: white;
     display: flex;
     justify-content: space-between; /* Spaces logo, links, and icon */
