@@ -226,6 +226,10 @@ body{
         .navbar-toggler {
             display: block;
         }
+        /* header */
+        .header_left{
+          margin-top: 23px;
+        }
         .button{
           margin-bottom: 2rem;
         }
