@@ -206,7 +206,7 @@ body{
 
   @media screen and (max-width: 768px) {
     .nav_bar{
-        padding: 50px;
+        padding: 30px;
        }
           .nav_links {
             display: none;
