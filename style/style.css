@@ -30,21 +30,23 @@ body{
   font-size: 18px;
 }
 .nav_bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;              /* Full width */
+    background-color: var(--color-bg); /* Initial dark blue */
+    color: white;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between; /* Spaces logo, links, and icon */
     align-items: center;
-    background-color: var(--color-bg);
-    padding: 10px 20px;
-    position: relative;
-    
+    padding: 10px 20px;       /* Internal spacing */
+    z-index: 1000;            /* Ensures navbar stays above content */
   }
   .logo {
     display: flex;
     align-items: center;
     color: var(--color-white);
   }
-  
- 
   .nav_links {
     list-style: none;
     display: flex;
@@ -138,6 +140,12 @@ body{
     color: var(--color-white);
     border-left: 4px solid var(--color-b);
     padding: 10px;
+  }
+  .document{
+    padding: 0.4rem;
+  }
+  .document a{
+    color: var(--premier-color);
   }
   .project ul li{
     list-style: none;
