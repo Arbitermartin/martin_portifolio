@@ -4,43 +4,43 @@
       {
         "name": "HTML",
         "description": "HyperText Markup Language, used for structuring web pages.",
-        "image": "images/html.png",
+        "image": "images/html.webp",
         "experienceLevel": 5
       },
       {
         "name": "CSS",
         "description": "Cascading Style Sheets, used for styling HTML elements.",
-        "image": "images/css.png",
+        "image": "images/css.webp",
         "experienceLevel": 5
       },
       {
         "name": "JavaScript",
         "description": "A scripting language for creating dynamic and interactive web content.",
-        "image": "images/javascript.png",
+        "image": "images/javaScript.webp",
         "experienceLevel": 4
       },
       {
         "name": "Python",
         "description": "A versatile, high-level programming language used for web development, data science, automation, and more.",
-        "image": "images/python.png",
+        "image": "images/python.webp",
         "experienceLevel": 3
       },
       {
         "name": "SQL",
         "description": "Structured Query Language, used for managing and querying databases.",
-        "image": "images/sql.png",
+        "image": "images/sql.webp",
         "experienceLevel": 4
       },
       {
         "name": "React",
         "description": "A JavaScript library for building fast and interactive user interfaces.",
-        "image": "images/react.png",
+        "image": "images/react.webp",
         "experienceLevel": 3
       },
       {
         "name": "Next.js",
         "description": "A React framework for building server-rendered and static web applications.",
-        "image": "images/nextjs.png",
+        "image": "images/next.js.webp",
         "experienceLevel": 3
       }
     ]

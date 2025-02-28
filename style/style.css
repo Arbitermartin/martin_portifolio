@@ -148,12 +148,6 @@ body{
     border-left: 4px solid var(--color-b);
     padding: 10px;
   }
-  .document{
-    padding: 0.4rem;
-  }
-  .document a{
-    color: var(--premier-color);
-  }
   .project ul li{
     list-style: none;
     padding: 0.3rem;
@@ -222,12 +216,20 @@ body{
     .history{
       width: 90%;
       max-width: 1200px;
-      background-color: var(--color-white);
+      background: white;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
       margin: 20px auto;
       padding: 20px;
     }
     .history_container p{
       color: var(--color-black);
+    }
+    .history_container p{
+      margin-bottom: 23px;
+    }
+    .history h2{
+      text-align: center;
+      font-size: 35px;
     }
    #container {
     width: 90%;
