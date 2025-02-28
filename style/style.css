@@ -346,3 +346,12 @@ h1 {
           grid-template-columns: repeat(1, 1fr);
       }
   }
+  @media screen and (max-width:320px){
+    .container{
+      max-width: 1200px;
+    }
+    .header_left,.header_right{
+      margin: 20px 40px;
+    }
+    
+  }
