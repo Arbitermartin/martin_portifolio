@@ -321,6 +321,9 @@ h1 {
       .header_right img {
           max-width: 280px;
       }
+      .header_left{
+        margin-right: 20px;
+      }
       .header_left,.header_right{
         margin: 20px 40px;
     }
