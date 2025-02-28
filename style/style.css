@@ -92,18 +92,22 @@ body{
     background-color: var(--color-bg);
   }
   .header_left{
-    margin: 20px 30px;
+    margin: 20px 40px;
     line-height: 1.7rem;
     color: var(--color-white);
+  }
+  .header_left p{
+    margin-top: 30px;
   }
   .header_left h2{
     margin-bottom: 20px;
   }
+
   .header_right{
-   padding: 25px;
-   margin-top: 40px;
+    margin: 20px 40px;
   }
   .header_right img{
+    margin-top: 30px;
     height: 300px;
     width: 300px;
   }
@@ -159,51 +163,8 @@ body{
     color: black;
     margin-bottom: 23px;
   }
-  /* footer style */
-  footer{
-    background-color: var(--color-gray-700);
-    margin-top: 23px;
-  }
-  .footer{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    padding: 3rem;
-  }
-  .footer_container{
-    gap: 4rem;
-  }
-  .footer h2,p{
-    color: var(--color-white);
-    font-size: 20px;
-    font-weight: 300px;
-  }
-  .footer article ul li{
-    list-style: none;
-    
-  }
-  .footer ul,li a{
-    color: var(--color-white);
-    font-size: 20px;
-    font-weight: 200;
-  }
-  .footer ul li a:hover{
-    letter-spacing: 0.3rem;
-  }
-  .footer .social{
-    display: flex;
-    gap: 1.5rem;
-  }
-  .Year{
-    display: grid;
-    justify-content: center;
-    align-items: center;
-    border-top: 2px solid var(--color-white);
-  }
-  .off{
-    color: var(--color-white);
-  }
-/* about Me page style */
-   .about h2{
+  /* about Me page style */
+  .about h2{
     background-image: url("../images/coding.webp");
     background-repeat: no-repeat;
     background-size: cover;
@@ -290,6 +251,50 @@ h1 {
     font-size: 14px;
     color: var(--color-white);
 }
+  /* footer style */
+  footer{
+    background-color: var(--color-gray-700);
+    margin-top: 23px;
+  }
+  .footer{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding: 3rem;
+  }
+  .footer_container{
+    gap: 4rem;
+  }
+  .footer h2,p{
+    color: var(--color-white);
+    font-size: 20px;
+    font-weight: 300px;
+  }
+  .footer article ul li{
+    list-style: none;
+    
+  }
+  .footer ul,li a{
+    color: var(--color-white);
+    font-size: 20px;
+    font-weight: 200;
+  }
+  .footer ul li a:hover{
+    letter-spacing: 0.3rem;
+  }
+  .footer .social{
+    display: flex;
+    gap: 1.5rem;
+  }
+  .Year{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    border-top: 2px solid var(--color-white);
+  }
+  .off{
+    color: var(--color-white);
+  }
+
 
   @media screen and (max-width: 768px) {
     .nav_bar{
@@ -318,11 +323,9 @@ h1 {
           grid-template-columns: 1fr; 
           /* text-align: center; */
       }
+  
       .header_right img {
           max-width: 280px;
-      }
-      .header_left{
-        margin-right: 20px;
       }
       .header_left,.header_right{
         margin: 20px 40px;
