@@ -1,0 +1,47 @@
+{
+    "name": "Martin Arexander Kasike",
+    "programmingLanguages": [
+      {
+        "name": "HTML",
+        "description": "HyperText Markup Language, used for structuring web pages.",
+        "image": "images/html.png",
+        "experienceLevel": 5
+      },
+      {
+        "name": "CSS",
+        "description": "Cascading Style Sheets, used for styling HTML elements.",
+        "image": "images/css.png",
+        "experienceLevel": 5
+      },
+      {
+        "name": "JavaScript",
+        "description": "A scripting language for creating dynamic and interactive web content.",
+        "image": "images/javascript.png",
+        "experienceLevel": 4
+      },
+      {
+        "name": "Python",
+        "description": "A versatile, high-level programming language used for web development, data science, automation, and more.",
+        "image": "images/python.png",
+        "experienceLevel": 3
+      },
+      {
+        "name": "SQL",
+        "description": "Structured Query Language, used for managing and querying databases.",
+        "image": "images/sql.png",
+        "experienceLevel": 4
+      },
+      {
+        "name": "React",
+        "description": "A JavaScript library for building fast and interactive user interfaces.",
+        "image": "images/react.png",
+        "experienceLevel": 3
+      },
+      {
+        "name": "Next.js",
+        "description": "A React framework for building server-rendered and static web applications.",
+        "image": "images/nextjs.png",
+        "experienceLevel": 3
+      }
+    ]
+  }

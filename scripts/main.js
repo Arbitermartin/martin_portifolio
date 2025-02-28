@@ -8,6 +8,34 @@ document.getElementById('toggleButton').addEventListener('click',function(){
     }
     navMenu.classList.toggle('show');
 });
+// data fetch
+document.addEventListener("DOMContentLoaded", function () {
+    // Fetch the JSON data from the data folder
+    fetch("data/members.json")
+        .then(response => response.json())
+        .then(data => {
+            const languagesList = document.getElementById("languages-list");
+
+            // Loop through languages and display them
+            data.programmingLanguages.forEach(lang => {
+                const langCard = document.createElement("div");
+                langCard.classList.add("language-card");
+
+                langCard.innerHTML = `
+                    <img src="${lang.image}" alt="${lang.name}">
+                    <div class="language-info">
+                        <h2>${lang.name}</h2>
+                        <p>${lang.description}</p>
+                        <p><strong>Experience Level:</strong> ${lang.experienceLevel}/5</p>
+                    </div>
+                `;
+
+                languagesList.appendChild(langCard);
+            });
+        })
+        .catch(error => console.error("Error loading the data:", error));
+});
+
 // year
 const year = document.querySelector("#currentYear");
 const today = new Date();
